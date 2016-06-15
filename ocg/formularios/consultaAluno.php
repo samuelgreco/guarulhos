@@ -23,7 +23,7 @@ $class = new consultaAluno();
                     if ($class->lstTrava[0]['ALUNOINSERT'] == 1) {
                         ?>
                         <a href="cadastro_aluno.php" id="btnNovo" class="Novo">Novo</a>
-                      ss  <?php
+                     	<?php
                     }
                     ?>
                     <input type="button" class="Voltar" style='margin-left:0%' onclick="history.go(-1);" />
