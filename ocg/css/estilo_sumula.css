@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	outline:0;
+	font-size:12px;
+	vertical-align:baseline;
+	background:transparent
+}body{line-height:0.9}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+.nomes td,th {border:#000000 2px solid;}
+
+
+input {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:1.2em; font-weight:bolder; text-transform: uppercase; text-align: center;}
+input{width:100%; height:20px; border:#000000 2px solid}
+label {width:100%; height:auto; margin:0px; padding:0px} 	
+
+form{width:100%; position:relative;}
+
+/* ------------------------------------------------ Basquete---------------------------------------------------------- */
+
+#tabela_basquete {  width:1000px; height:auto; position:relative;}
+#tabela_basquete_nome_jogador_A {background:#FFFFFF; width:462px; height:337px; position:absolute; top:195px; left:5px; padding:0; margin:0;}
+#tabela_basquete_nome_jogador_B{background:#FFFFFF; width:462px; height:337px; position:absolute; top:730px; left:5px; padding:0; margin:0;}
+#tabela_basquete_numero{ width:50px; height:25px; position:absolute; top:20px; left:80px; padding:0; margin:0;}
+#tabela_basquete_competicao{ width:50px; height:25px; position:absolute; top:20px; left:183px; padding:0; margin:0;}
+#tabela_basquete_sex{ width:80px; height:25px; position:absolute; top:5px; left:232px; padding:0; margin:0;}
+#tabela_basquete_local{ width:180px; height:25px; position:absolute; top:5px; left:372px; padding:0; margin:0;}
+#tabela_basquete_data{ width:80px; height:25px; position:absolute; top:40px; left:220px; padding:0; margin:0;}
+#tabela_basquete_hora{ width:80px; height:25px; position:absolute; top:40px; left:448px; padding:0; margin:0;}
+#tabela_basquete_equipe_A{ width:180px; height:25px; position:absolute; top:70px; left:220px; padding:0; margin:0;}
+#tabela_basquete_equipe_B{ width:180px; height:25px; position:absolute; top:590px; left:190px; padding:0; margin:0;}
+
+
+/* ------------------------------------------------ Fim Basquete---------------------------------------------------------- */
+
+
+/* ------------------------------------------------ Futsal---------------------------------------------------------- */
+
+#tabela_futsal {  width:1000px; height:auto; position:relative; padding:0px;}
+#tabela_futsal_jogo { width:65px; height:28px; position:absolute; top:13px; left:208px; padding:0; margin:0;}
+#tabela_futsal_competicao { width:400px; height:28px; position:absolute; top:92px; left:130px; padding:0; margin:0;}
+#tabela_futsal_data { width:195px; height:28px; position:absolute; top:13px; left:792px; padding:0; margin:0;}
+#tabela_futsal_local { width:400px; height:28px; position:absolute; top:140px; left:111px; padding:0; margin:0;}
+#tabela_futsal_categoria { width:400px; height:28px; position:absolute; top:116px; left:111px; padding:0; margin:0;}
+#tabela_futsal_hora { width:130px; height:28px; position:absolute; top:13px; left:468px; padding:0; margin:0;}
+#tabela_futsal_vs_time_A { width:422px; height:28px; position:absolute; top:53px; left:13px; padding:0; margin:0;}
+#tabela_futsal_vs_time_B { width:422px; height:28px; position:absolute; top:53px; left:565px; padding:0; margin:0;}
+#tabela_futsal_equipe_A { width:360px; height:28px; position:absolute; top:307px; left:110px; padding:0; margin:0;}
+#tabela_futsal_equipe_A_jogadores { background:#FFFFFF; width:810px; height:380px; position:absolute; top:332px; left:14px; padding:0; margin:0; font-size: 16px;}
+
+#tabela_futsal_equipe_B { width:360px; height:28px; position:absolute; top:903px; left:110px; padding:0; margin:0;}
+#tabela_futsal_equipe_B_jogadores { background:#FFFFFF; width:810px; height:380px; position:absolute; top:928px; left:14px; padding:0; margin:0; font-size: 16px;}
+
+
+/* ---------------------------------------------- Fim Futsal---------------------------------------------------------- 
+ /*------------------------------------------------ Handebol---------------------------------------------------------- */
+
+
+#tabela_handebol_equipe_A {width:554px; height:279px; position:absolute; top:316px; left:23px; padding:0; margin:0;}
+#tabela_handebol_equipe_B {width:550px; height:280px; position:absolute; top:829px; left:23px; padding:0; margin:0;}
+#tabela_handebol {  width:1100ppx; height:1570px;}
+#tabela_handebol_nome_B { width:200px; height:28px; position:absolute; top:768px; left:91px; padding:0; margin:0;}
+#tabela_handebol_nome_A { width:200px; height:28px; position:absolute; top:260px; left:91px; padding:0; margin:0;}
+#tabela_handebol_time_B { width:170px; height:28px; position:absolute; top:217.7px; left:353px; padding:0; margin:0;}
+#tabela_handebol_time_A { width:170px; height:28px; position:absolute; top:217.7px; left:50px; padding:0; margin:0;}
+#tabela_handebol_competicao { width:120px; height:28px; position:absolute; top:-40px; left:0px; padding:0; margin:0;}
+#tabela_handebol_n_jogo { width:65px; height:28px; position:absolute; top:150px; left:120px; padding:0; margin:0;}
+#tabela_handebol_hora { width:55px; height:18px; position:absolute; top:145px; left:452px; padding:0; margin:0;}
+#tabela_handebol_data { width:110px; height:15px; position:absolute; top:29px; left:630px; padding:0; margin:0;}
+#tabela_handebol_local { width:270px; height:18px; position:absolute; top:185px; left:105px; padding:0; margin:0;}
+#tabela_handebol_sex { width:70px; height:28px; position:absolute; top:150px; left:235px; padding:0; margin:0;} 
+/*------------------------------------------------ Fim Handebol---------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Volei---------------------------------------------------------- */
+
+#tabela_volei input{ width:100%; height:12px; border:#000000 2px solid; margin:0;}
+#tabela_volei input {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.9em; font-weight:bolder; text-transform: uppercase;}
+#tabela_volei {  width:1015px; height:auto; position:relative;}
+#tabela_volei_data { width:50px; height:15px; position:absolute; top:5px; left:335px; padding:0; margin:0;}
+#tabela_volei_competicao { width:50px; height:15px; position:absolute; top:5px; left:90px; padding:0; margin:0;}
+#tabela_volei_ginasio { width:88px; height:15px; position:absolute; top:35px; left:68px; padding:0; margin:0;}
+#tabela_volei_sex { width:152px; height:15px; position:absolute; top:51px; left:4px; padding:0; margin:0;}
+#tabela_volei_categoria { width:110px; height:15px; position:absolute; top:21px; left:210px; padding:0; margin:0;}
+#tabela_volei_jogo { width:54px; height:15px; position:absolute; top:20px; left:452px; padding:0; margin:0;}
+#tabela_volei_A_vs { width:95px; height:17px; position:absolute; top:51px; left:158px; padding:0; margin:0;}
+#tabela_volei_B_vs { width:95px; height:17px; position:absolute; top:51px; left:348px; padding:0; margin:0;}
+#tabela_volei_equipe_A { background:#FFFFFF; width:139px; height:246px; position:absolute; top:283px; left:715px; padding:0; margin:0;}
+#tabela_volei_equipe_B { background:#FFFFFF; width:152px; height:246px; position:absolute; top:283px; left:855px; padding:0; margin:0;}
+
+/* ------------------------------------------------ Fim Volei---------------------------------------------------------- */
+
+
+/* ------------------------------------------------ Futebol---------------------------------------------------------- */
+#tabela_fute_campo {  width:1000px; height:auto; position:relative; padding:0px}
+#tabela_fute_campo_disputantes { width:640px; height:28px; position:absolute; top:9px; left:89px; padding:0; margin:0;}
+#tabela_fute_campo_data { width:80px; height:100px;  position:absolute; top:9px; left:770px; padding:0; margin:0;}
+#tabela_fute_campo_competicao { width:80px; height:100px;  position:absolute; top:65px; left:280px; padding:0; margin:0;}
+#tabela_fute_campo_jogo{ width:100px; height:28px; position:absolute; top:38px; left:46px; padding:0; margin:0;}
+#tabela_fute_campo_categoria { width:195px; height:28px; position:absolute; top:38px; left:218px; padding:0; margin:0;}
+#tabela_fute_campo_divisao { width:150px; height:28px; position:absolute; top:39px; left:480px; padding:0; margin:0;}
+#tabela_fute_campo_chave { width:90px; height:28px; position:absolute; top:39px; left:675px; padding:0; margin:0;}
+#tabela_fute_campo_tempo { width:130px; height:28px; position:absolute; top:39px; left:865px; padding:0; margin:0;}	
+#tabela_fute_campo_equipe_A{ width:430px; height:28px; position:absolute; top:89px; left:68px; padding:0; margin:0;}
+#tabela_fute_campo_equipe_B{ width:430px; height:28px; position:absolute; top:89px; left:563px; padding:0; margin:0;}
+#tabela_fute_campo_nome_equipe_A{background:#FFFFFF; width:491px; height:787px; position:absolute; top:139px; left:7px; padding:0; margin:0;  font-size: 16px; }
+#tabela_fute_campo_nome_equipe_A td {padding:6px;}
+#tabela_fute_campo_nome_equipe_B{background:#FFFFFF; width:492px; height:787px; position:absolute; top:139px; left:501px; padding:0; margin:0;  font-size: 16px;}
+#tabela_fute_campo_nome_equipe_B td {padding:6px;}
+
+/* ------------------------------------------------ Fim Futebol---------------------------------------------------------- */

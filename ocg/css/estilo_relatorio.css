@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.par {
+	background-color: #CCCCCC;
+	font: 12px verdana, arial, helvetica, sans-serif;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	border-bottom-style: outset;
+	margin-top: 7px;
+	margin-right: 15px;
+	height: 18px;
+	width: auto;
+}
+
+.impar {
+	background-color: white;
+	font: 12px verdana, arial, helvetica, sans-serif;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	border-bottom-style: outset;
+	margin-top: 7px;
+	margin-right: 15px;
+	height: 18px;
+	width: auto;
+}
+
+.tabela {
+	background-color: #4571b3;
+	font: 20px verdana, arial, helvetica, sans-serif;
+	color: black;
+	border: 1px solid #CCCCCC;
+	border-bottom-style: outset;
+	margin-top: 7px;
+	margin-right: 15px;
+	width: auto;
+}
+
+.corpo {
+	font: 12px verdana, arial, helvetica, sans-serif;
+	width: 100%;
+}
+
+.data {
+	font: 10px verdana, arial, helvetica, sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+

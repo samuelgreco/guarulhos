@@ -1,0 +1,403 @@
+.h2 {
+    margin-left:1%;
+    font-size:24px
+}
+
+.h1 {
+    margin-left:0.4%
+}
+
+.tabelaa{
+    margin-left:1%
+}
+
+.acessoEscola{
+    text-align:center;
+    width:600px; 
+    border:0;
+}
+
+/************** TRAVA INSCRICAO**************/
+.bodyTravaInscricao .tdEscola{
+    vertical-align: middle;
+}
+
+
+/************** CONSULTA ALUNO**************/
+.bodyAlunoProva .tb{
+    width:700px;
+    border:none;
+}
+
+/**************BOTAO NOVO**************/
+.bodyConsultaEscola .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:10%;
+
+}
+.bodyConsultaAluno .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+.bodyConsultaProfessor .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+.bodyConsultaProva .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+.bodyConsultaModalidade .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+.bodyConsultaLocal .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+.bodyConsultaCategoria .Novo{    
+    padding:1%;
+    padding-left:3%;
+    margin-left:8%;
+
+}
+
+/********BOTAO VOLTAR**************/
+.bodyCadEscola .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+
+.bodyCadastroCategoria .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroLocal .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroModalidade .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroModalidade .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroAluno .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroProva .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroProfesor .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+.bodyCadastroSumula .Voltar{
+    padding: 20px;
+    margin-right: 40%;
+    margin-top: 0%;
+}
+
+
+
+
+/************** CONSULTA CATEGORIA**************/
+.bodyConsultaCategoria .tbPesquisa{
+    width:760px;
+    border:none
+}
+.bodyConsultaCategoria #tabela{
+    /* width:90%; */
+    border:none;
+}
+
+.bodyConsultaCategoria #txtCategoria{
+    width:70%;
+}
+
+.bodyConsultaCategoria .td{
+    text-align:center
+}
+
+.bodyConsultaCategoria .tdeditar{
+    padding:12px;
+    width:60px;
+}
+
+/************* FICHA INDIVIDUAL **************/
+.bodyFichaIndividual .tb{
+    width:700px;
+    border:none;
+}
+
+.bodyFichaIndividual .tdProva, .bodyFichaIndividual .tdTipo {
+    width:366px;
+}
+
+
+/************* GERAR TABELA **************/
+.bodyGerarTabela .tbProva{
+    width:500px;
+    border:1, #f7f7f7, 1px ,solid;
+    bordercolor:#555555	
+
+}
+
+
+
+/************* CONSULTA LOCAL**************/
+.bodyConsultaLocal .td{
+    padding:6px;
+    padding-bottom:14px;
+    width:180px;
+}
+
+/************* CONSULTA MODALIDADE**************/
+.bodyConsultaModalidade .td{
+    width:60px;
+}
+
+.bodyConsultaModalidade .td{
+    padding:11px
+}
+
+/************* CONSULTA PROVA**************/
+.bodyConsultaProva .tdeditar{
+    padding:12px;
+    width:60px;
+}
+
+.bodyConsultaProva .td{
+    padding:6px;
+    padding-bottom:12px;
+}
+
+
+/************* CONSULTA PROFESSOR**************/
+.bodyConsultaProfessor .tdRG, .bodyConsultaProfessor .tdCREF{
+    text-align: center;	
+}
+
+
+/************* CONSULTA TABELA**************/
+.bodyConsultaTabela .td{
+    padding-top:5px;
+    padding-bottom:12px;
+}
+
+
+
+/************* REL PROTOCOLO DE INSCRICAO**************/
+
+.bodyProtocoloInscricao  .par {
+    background-color: #CCCCCC;
+    font: 14px verdana, arial, helvetica, sans-serif;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    height: 18px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .impar {
+    background-color: white;
+    font: 14px verdana, arial, helvetica, sans-serif;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    height: 18px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .tabela {
+    background-color: #f7f7f7;
+    font: 16px verdana, arial, helvetica, sans-serif;
+    color: black;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    width: auto;
+    font-weight: bold;
+}
+
+.bodyProtocoloInscricao .corpo {
+    font: 13px verdana, arial, helvetica, sans-serif;
+    margin-top: 7px;
+    margin-right: 15px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .data {
+    font: 10px verdana, arial, helvetica, sans-serif;
+    text-align: center;
+    width: 700px;
+}
+
+.bodyProtocoloInscricao #landscape {
+    writing-mode: tb-rl;
+    height: 80%;
+    margin: 10% 0%;
+}
+
+.bodyProtocoloInscricao .esconde {
+    visibility: hidden;
+}
+
+.bodyProtocoloInscricao .par {
+    background-color: #CCCCCC;
+    font: 14px verdana, arial, helvetica, sans-serif;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    height: 18px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .impar {
+    background-color: white;
+    font: 14px verdana, arial, helvetica, sans-serif;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    height: 18px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .tabela {
+    background-color: #f7f7f7;
+    font: 16px verdana, arial, helvetica, sans-serif;
+    color: black;
+    border: 1px solid #CCCCCC;
+    border-bottom-style: outset;
+    margin-top: 7px;
+    margin-right: 15px;
+    width: auto;
+    font-weight: bold;
+}
+
+.bodyProtocoloInscricao .corpo {
+    font: 13px verdana, arial, helvetica, sans-serif;
+    margin-top: 7px;
+    margin-right: 15px;
+    width: auto;
+}
+
+.bodyProtocoloInscricao .data {
+    font: 10px verdana, arial, helvetica, sans-serif;
+    text-align: center;
+    width: 700px;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+.datepicker{
+    background: #333;
+    border: 1px solid #555;
+    color: #EEE;
+    height: auto;
+    width: auto;
+}
+
+.Voltar{
+    padding-top:3%;
+    height:auto;
+}
+.Imprimir{
+    height:auto;
+}
+.Pesquisar{
+    height:auto;
+}
+.Editar{    
+    padding-right: 25%;
+}
+.Novo{
+    padding-left:4%;
+}
+.container{
+    margin-bottom: 15%;
+}
+.tdBotao{text-align: center;width: 7.5%;}
+
+/*////////////////////Img Botoes////////////////////////////*/
+/*-----------------Remover--------------------------------*/
+.Remover{
+	background: url(../../lib/images/icones/remove_2.png) no-repeat 5px;
+	font: 14px verdana, arial, helvetica, sans-serif;
+	color: #FF0000;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 30px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*-----------------Link Edit--------------------------------*/
+.Editar{
+	/* #8C0095 */
+	background: url(../../lib/images/icones/edit_2.png) no-repeat 7px;
+	color: #FFFFFF;
+	font: 14px verdana, arial, helvetica, sans-serif;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 29px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*-----------------Cadeado--------------------------------*/
+.CadAberto{
+	background: #00C13F url(../../lib/images/icones/aberto.png) no-repeat 7px;
+	color: #FFFFFF;
+	font: 14px 00C13F verdana, arial, helvetica, sans-serif;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 25px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.CadFechado{
+	background: #FF2E12 url(../../lib/images/icones/fechado.png) no-repeat 7px;
+	color: #FFFFFF;
+	font: 14px verdana, arial, helvetica, sans-serif;
+	margin: 5px;
+	padding: 10px;
+	padding-left: 25px;																				
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
